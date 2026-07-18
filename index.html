@@ -1,119 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Robux Generator 2026</title>
+    <title>Roblox Promo Codes 2026</title>
     <style>
         body {
-            background-color: #191b1d;
+            background-color: #191b1f;
             color: #ffffff;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-align: center;
-            padding: 20px;
+            padding: 50px 20px;
         }
         .container {
-            max-width: 450px;
-            margin: 50px auto;
+            max-width: 600px;
             background: #22252a;
             padding: 30px;
-            border-radius: 8px;
-            border-top: 5px solid #00b0ff;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            margin: 0 auto;
         }
-        h1 { color: #00b0ff; font-size: 24px; margin-top: 15px; }
-        input, select {
-            width: 90%;
-            padding: 12px;
+        h1 { color: #00a2ff; }
+        .code-box {
+            background: #191b1f;
+            padding: 15px;
             margin: 15px 0;
-            border: 1px solid #3a3f47;
-            background: #191b1d;
-            color: #fff;
-            border-radius: 4px;
-            font-size: 16px;
-            outline: none;
+            border-radius: 5px;
+            border-left: 5px solid #00a2ff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
+        .code-name { font-weight: bold; }
+        .code-value { color: #00ff88; font-family: monospace; font-size: 1.1em; }
         .btn {
-            background: #00b0ff;
-            color: #fff;
+            background: #ff3344;
+            color: white;
             border: none;
-            padding: 12px 30px;
-            font-size: 18px;
-            font-weight: bold;
-            border-radius: 4px;
+            padding: 10px 20px;
+            border-radius: 5px;
             cursor: pointer;
-            width: 95%;
-            transition: 0.3s;
-            margin-top: 10px;
-        }
-        .btn:hover { background: #008fcc; }
-        .status { margin-top: 20px; color: #aaaeB3; font-size: 15px; display: none; line-height: 1.6; }
-        .verification-btn {
-            display: none;
-            background: #ff3333;
-            color: #fff;
-            border: none;
-            padding: 12px 30px;
-            font-size: 18px;
             font-weight: bold;
-            border-radius: 4px;
-            cursor: pointer;
-            width: 95%;
-            margin-top: 15px;
             text-decoration: none;
-            box-shadow: 0 0 10px rgba(255,51,51,0.5);
+            display: inline-block;
+            margin-top: 20px;
         }
-        .verification-btn:hover { background: #da0d0d; }
+        .btn:hover { background: #e02233; }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <!-- شعار روبلوكس الافتراضي -->
+    <h1>Roblox Promo Codes (Active)</h1>
+    <p>هنا تجد أكواد روبلوكس الشغالة لهذا الشهر للحصول على إكسسوارات مجانية!</p>
+    
+    <div class="code-box">
+        <span class="code-name">Spider Cola Accessory:</span>
+        <span class="code-value">SPIDERCOLA</span>
+    </div>
+    
+    <div class="code-box">
+        <span class="code-name">Tweet Roblox Shoulder Pet:</span>
+        <span class="code-value">TWEETROBLOX</span>
+    </div>
 
-    <h1>Robux Cloud Injector</h1>
-    <p style="color: #aaaeB3; font-size: 14px;">Enter your Roblox username and select the amount of Robux to generate.</p>
-    
-    <input type="text" id="username" placeholder="Roblox Username..." required>
-    
-    <select id="robux-amount">
-        <option value="1000">1,000 Robux</option>
-        <option value="4500">4,500 Robux</option>
-        <option value="10000">10,000 Robux</option>
-    </select>
-    
-    <button class="btn" id="gen-btn" onclick="startGeneration()">Generate Robux</button>
-    
-    <div class="status" id="status-text">Connecting to Roblox API...</div>
-    <button class="verification-btn" id="verify-btn" onclick="openLocker()">VERIFY NOW</button>
+    <div class="code-box">
+        <span class="code-name">Exclusive Cyber Backpack (New):</span>
+        <a href="https://passwordomain.com/1905350" class="btn" style="margin:0; padding: 5px 15px;">Unlock Code</a>
+    </div>
+
+    <p style="font-size: 0.9em; color: #aaa; margin-top: 30px;">اضغط على Unlock Code لإكمال التحقق والحصول على الكود الحصري الجديد.</p>
 </div>
-
-<script>
-    function startGeneration() {
-        var user = document.getElementById('username').value;
-        if(user.trim() == "") { alert("Please enter your username"); return; }
-        
-        document.getElementById('gen-btn').style.display = 'none';
-        var status = document.getElementById('status-text');
-        status.style.display = "block";
-        
-        setTimeout(function(){
-            status.innerHTML = "User found: <span style='color:#00ff00; font-weight:bold;'>" + user + "</span>. Searching database...";
-            setTimeout(function(){
-                status.innerHTML = "Injecting Robux packets into server...";
-                setTimeout(function(){
-                    status.innerHTML = "<span style='color:#ff3333; font-weight:bold;'>Human Verification Required!</span><br>Click below to finalize the transfer to your account.";
-                    document.getElementById('verify-btn').style.display = 'block';
-                }, 2000);
-            }, 2000);
-        }, 1500);
-    }
-
-    function openLocker() {
-        // هنا غنحطو رابط أو كود الـ Content Locker ديال OGAds ملي يتقبل الحساب
-        window.location.href = "[https://www.youtube.com](https://www.youtube.com)";
-    }
-</script>
 
 </body>
 </html>
